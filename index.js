@@ -4,7 +4,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const db = require("./db"); // Import connection
+const db = require("./src/database/db"); // Import connection
 const { check, validationResult } = require("express-validator");
 
 const app = express();
